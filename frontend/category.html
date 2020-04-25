@@ -11,10 +11,63 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/category.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
 
+  <style type="text/css" media="screen">
+    
+.price{
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 20px;
+  margin-top: 5px;
+}
+.range-controls {
+    position:relative;
+    height:80px;
+    margin-bottom:15px;
+    padding:0 30px;
+    background: rgb(85,85,85);
+    border-radius:5px;
+    overflow:hidden;
+}
+.toggle {
+    position:absolute;
+    top:30px;
+    left:30px;
+    width:5px;
+    height:4px;
+    border:8px solid white;
+    background:#ababab;
+    cursor:pointer;
+    border-radius:50%;
+}
 
+.price-controls input{
+    border-radius: 5px;
+    
+}
+
+body {
+  
+  background: #cc6699;
+  font-family: 'Roboto', sans-serif;
+ }
+ .form-control, .form-control:focus, .input-group-addon {
+  border-radius: 5px;
+  border-color: #e1e1e1;
+ }
+    .form-control, .btn {        
+        border-radius: 3px;
+    }
+    input[type=text] {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+    
+  </style>
   </head>
   <body>
     <div class = "navbar navbar-inverse navbar-fixed-top">
@@ -54,35 +107,41 @@
       </div>
     </div>
    
-
-<section class=" container-fluid jumbotron text-center">
+    <div class="container">
+      <h3 class="text-center p-2">Cateogory og Manga</h3>
     
-      <h1>Manga Oku</h1>
-      <p class="lead text-muted">Kel balalar Kazakh manga Okulyk.</p>
+        
+          <h1>Filter Manga</h1>
+          <hr>
+           <h1 style="color:#9ddbfa;">Select Manga Type</h1>
+         
+         
+          <div class = col-lg-5>
+            <div class="price-controls">
+               <h2> From Manga Release </h2>
+                <div class="form-group">
+   <div class="input-group">
+   
+    <input type="text"  style="width: 300px; border-radius: 3px; " class="form-control" name="" placeholder="From 1999" >
+   </div>
+        </div>
+              
+                  <h2> To Manga Release</h2> <div class="form-group">
+   <div class="input-group">
+   
+    <input type="text"  style="width: 300px; border-radius: 3px;" class="form-control" name="" placeholder="To 2020" >
+   </div>
+        </div>
+            </div>
+            </div>
+        
       
- 
-  </section>
+          
 
+        
+      
 
-
-  <div class="col-md-12 colTop align-self-center mb-4">
-    <h2 class="page__title my-auto">
-              Обновления популярной манги
-          </h2>
-    <p class="text-white">Update of popular manga</p>
-  </div>
- 
-  <section class="bg-light">
-   <div class="container mb-4 ">
-     <div class="row">
-       <div class="col-md-3"><a  href="1a.png" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
-       <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
-      <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
-      <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
-       
-     </div>
-   </div> 
-  </section>
+    </div>
 
 
 </body>
