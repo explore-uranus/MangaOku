@@ -16,38 +16,7 @@
 
   <style type="text/css" media="screen">
     
-.price{
-  color: black;
-  font-weight: bold;
-  font-size: 35px;
-  line-height: 20px;
-  margin-top: 5px;
-}
-.range-controls {
-    position:relative;
-    height:80px;
-    margin-bottom:15px;
-    padding:0 30px;
-    background: rgb(85,85,85);
-    border-radius:5px;
-    overflow:hidden;
-}
-.toggle {
-    position:absolute;
-    top:30px;
-    left:30px;
-    width:5px;
-    height:4px;
-    border:8px solid white;
-    background:#ababab;
-    cursor:pointer;
-    border-radius:50%;
-}
 
-.price-controls input{
-    border-radius: 5px;
-    
-}
 
 body {
   
@@ -66,7 +35,48 @@ body {
   border-radius: 4px;
   padding: 12px 20px;
 }
-    
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+.checkboxtext
+{
+  /* Checkbox text */
+  font-size: 110%;
+  display: inline;
+}
+.bg-light{
+  background-color: #e6cad8;
+}
+.figure-caption{
+  font-size: 100%;
+  color: #eeeeee;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  background-color: #868e96;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.img-thumbnail{
+  margin-top: 10px;
+  padding: .5rem;
+  border: 2px solid #868e96;
+  border-radius: 0;
+  background-color: #dddddd;
+  height: 290px;
+}
+img.mfp-img {
+    width: 85vw;
+}
+
+
   </style>
   </head>
   <body>
@@ -113,27 +123,234 @@ body {
         
           <h1>Filter Manga</h1>
           <hr>
-           <h1 style="color:#9ddbfa;">Select Manga Type</h1>
+          
          
-         
-          <div class = col-lg-5>
+         <div class="row">
+           
+        
+          <div class = col-lg-3>
+             <h1 style="color:#ff00a5;">Manga Update</h1>
+             <hr>
+
+             <h2>Manga Release</h2>
+
             <div class="price-controls">
-               <h2> From Manga Release </h2>
+          
                 <div class="form-group">
    <div class="input-group">
    
-    <input type="text"  style="width: 300px; border-radius: 3px; " class="form-control" name="" placeholder="From 1999" >
+    <input type="text"  style="width: 270px; border-radius: 3px; " class="form-control" name="" placeholder="From 1999" >
    </div>
         </div>
               
-                  <h2> To Manga Release</h2> <div class="form-group">
+                  <h2> To Manga Release</h2> 
+                  <div class="form-group">
    <div class="input-group">
    
-    <input type="text"  style="width: 300px; border-radius: 3px;" class="form-control" name="" placeholder="To 2020" >
+    <input type="text"  style="width: 270px; border-radius: 3px;" class="form-control" name="" placeholder="To 2020" >
    </div>
         </div>
             </div>
+            <hr>
+
+             <h2 style="color:#ff00a5">Select Manga Type</h2>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label >
+                    <input type="checkbox" style=""
+                    value="Manga"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" style="">
+                     
+                <span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input product_check" 
+                    value="Манхва"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input product_check" 
+                    value="Comics"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+              <h2 style="color:#ff00a5;">Select Manga Type</h2>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label >
+                    <input type="checkbox" style=""
+                    value="Manga"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" style="">
+                     
+                <span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input product_check" 
+                    value="Манхва"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input product_check" 
+                    value="Comics"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+              <h2 style="color:#ff00a5">Select Manga Type</h2>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label >
+                    <input type="checkbox" style=""
+                    value="Manga"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" style="">
+                     
+                <span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input product_check" 
+                    value="Манхва"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input product_check" 
+                    value="Comics"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+              <h2 style="color:#ff00a5">Select Manga Type</h2>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label >
+                    <input type="checkbox" style=""
+                    value="Manga"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" style="">
+                     
+                <span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input product_check" 
+                    value="Манхва"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input product_check" 
+                    value="Comics"><span class="checkboxtext">
+  Option A
+</span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+
             </div>
+             <section class="bg-light">
+   <div class="container mb-4 ">
+     <div class="row">
+       <div class="col-md-3"><a  href="1a.png" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+       <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+      <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+      <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+       <div class="col-md-3"><a  href="1a.png" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+       <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+      <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+      <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+       <div class="col-md-3"><a  href="1a.png" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+       <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+      <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+      <div class="col-md-3"><a  href="images.jpg" title=""><img class="img-fluid img-thumbnail" src="images.jpg" alt="15 Глава"></a><figcaption class="py-2 figure-caption bg-secondary text-center">Demon Slayer Manga</figcaption></div>
+       
+     </div>
+   </div> 
+  </section>
+                </div>
         
       
           
