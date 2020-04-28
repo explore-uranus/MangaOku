@@ -1,5 +1,5 @@
 .container{
-	margin-top: 100px;
+	margin-top: 0px;
 }
 .image{
 	height: 280px;
@@ -9,8 +9,17 @@
 	font-size: 34px;
 	font-weight: bold;
 }
+.small{
+	font-size: 17px;
+	font-weight: bold;
+}
+.big{
+	color: #FE980F;
+	font-size: 25px;
+	font-weight: bold;
+}
 .high{
-
+	background-color: #f1d7c8;
 }
 .checked {
   color: orange;
@@ -29,6 +38,10 @@
 	cursor: pointer;
 	padding-left: 25px; 
 }
+.tb{
+	background-color: white;
+	width: 1000px;
+}
 body{
 	margin:0;
 	padding:0;
@@ -41,4 +54,12 @@ body{
 	font-size: 24px;
 	width: 260px;
 	margin-top: 15px;
+}
+.scrollable{
+	height: 300px;
+	width: 1020px;
+	overflow: scroll;
+}
+.mar{
+	margin-top: 25px;
 }
