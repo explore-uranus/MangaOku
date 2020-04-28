@@ -1,0 +1,44 @@
+.container{
+	margin-top: 100px;
+}
+.image{
+	height: 280px;
+	width: 260px;
+}
+.newarrival{
+	font-size: 34px;
+	font-weight: bold;
+}
+.high{
+
+}
+.checked {
+  color: orange;
+
+}
+.fa{
+  font-size: 30px;
+}
+.year{
+	color: #FE980F;
+	font-size: 25px;
+	font-weight: bold;
+}
+.year2{
+	font-size: 25px;
+	cursor: pointer;
+	padding-left: 25px; 
+}
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Baloo Bhaina 2', cursive;
+	background-color: #eeeeee;
+}
+.cart{
+	
+	
+	font-size: 24px;
+	width: 260px;
+	margin-top: 15px;
+}
